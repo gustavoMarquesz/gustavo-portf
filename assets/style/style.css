@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;  /*Tamanho da letra */
+    background-image: radial-gradient(circle at 47.71% 45.09%, #60345d 0, #54295b 25%, #441f59 50%, #311657 75%, #151156 100%);
+}
+.dark-mode{
+    background: black;
+    font-size: 100%;  /*Tamanho da letra */
+}
+
+.cabecalho{
+    padding: 30px;  /* O espaço entre a parte de cima com os itens */
+}
+
+.cabecalho-menu{
+    display: flex;
+    font-family: 'Roboto Mono', monospace;  /*google fonts */
+    color: #f8f8f8;
+    font-weight: 400;
+    gap: 30px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.item1{
+    color: #f8f8f8;  /*A cor da letra */
+
+}
+
+.item2{
+    color: #f8f8f8;  /*A cor da letra */
+}
+
+.item3{
+    color: #f8f8f8;  /*A cor da letra */
+
+}
+
+.conteudo{
+    border-bottom: 0.5px solid #d7d7ea;
+    border-top: 0.5px solid #d7d7ea;
+    margin-bottom: 48px;
+   
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.informacoes-eu{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px;
+    
+}
+
+.infomacaoUm{
+    font-family: 'Roboto Mono', monospace;
+    color:#d7d7ea;
+   
+    
+}
+
+.informacaoDois{
+    font-family: 'Dosis', sans-serif;
+    color: #d7d7ea;
+   
+    
+}
+.conteudoDois{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.minhaHistoria{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px;
+}
+
+.minhaHistoriaUm{
+    font-family: 'Roboto Mono', monospace;
+    color:#d7d7ea;
+}
+
+.minhaHistoriaDois{
+    font-family: 'Roboto Mono', monospace;
+    color:#d7d7ea;
+    text-align: justify;
+    gap: 25px;
+    padding: 40px;
+    
+}
+.img{
+    padding: 5%;
+    border-radius: 50%;
+    max-width:240px; /*os valorres auto para o width e height. Assim a escala é feita conforme largura ou altura (o que atingir primeiro) e a proporção é feita automaticamente.
+                     fiz isso para reduzir o tamanho da imagem no site, com um valor de 500px no maximo*/
+    max-height:240px;
+    min-width: 240;
+    width: auto;
+    height: auto;
+}
+
+.despedida{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #f8f8f8; 
+    border-top: 0.4px #d7d7ea solid;
+    flex-wrap: wrap;
+}
+
+.agradecimentos{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+    
+}
+
+.mail{
+    color: #f8f8f8;  /*A cor da letra */
+
+}
+
+.experienciasUm{
+    color: #f8f8f8;  /*A cor da letra */
+
+}
+
+.minhasExperiencias{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.experiencias{
+    font-family: 'Roboto Mono', monospace;
+    color:#d7d7ea;
+    gap: 25px;
+    padding: 40px;
+}
+
+.experienciasDois{
+    font-family: 'Roboto Mono', monospace;
+    color:#d7d7ea;
+    text-align: justify;
+    gap: 25px;
+    padding: 40px;
+}
+
+.experienciasUm{
+    font-family: 'Roboto Mono', monospace;
+    color:#d7d7ea;
+    text-align: justify;
+    gap: 25px;
+    padding: 40px;
+}
+.experienciasTres{
+    font-family: 'Roboto Mono', monospace;
+    color:#d7d7ea;
+    text-align: justify;
+    gap: 25px;
+    padding: 40px;
+}
+.experienciasQuatro{
+    font-family: 'Roboto Mono', monospace;
+    color:#d7d7ea;
+    text-align: justify;
+    gap: 25px;
+    padding: 40px;   
+}
+
+.minhasHabilidades{
+    display: flex;
+    flex-direction: row;  
+    padding: 40px;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #f8f8f8;
+    gap: 40px; 
+    flex-wrap:  wrap;
+}
+.habilidades{
+    border-top:  0.5px solid #d7d7ea;
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color:#f8f8f8
+    
+}
+#botao-dark{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.botao1{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+.botao2{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+   
+    
+}
+.botao3{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  
+  
+}
+.botao4{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+.botao5{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+.botao6{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+   
+}
+.botao7{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  
+}
+.botao8{
+    font-family: 'Roboto Mono', monospace;
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  
+}
+.botao9{
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.botoes{
+    font-family: 'Roboto Mono', monospace;  /*google fonts */
+    display: flex;  /*FlexBox, intruções de como usar no site */
+    gap: 32px;  /*O espaçamento entre as palavras */
+    color: #f8f8f8;  /*A cor da letra */
+    font-weight: 400;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: left;
+    cursor: pointer;
+    
+}
+.minhasHabilidadesDois{
+    display: flex;
+    flex-direction: row;  
+    padding: 40px;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #f8f8f8;
+    gap: 40px; 
+    flex-wrap:  wrap;
+}
+.habilidades2{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color:#f8f8f8
+}
+.front{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color:#f8f8f8
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color:#f8f8f8   
+}
+
+.dio{
+    font-family: 'Roboto Mono', monospace;
+    color:#f8f8f8   
+}
+
+@keyframes botaoAnimation{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+button:hover {
+    animation-name: botaoAnimation;
+    animation-duration: 0.5;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 100px 50px rgba(57, 42, 221, 0.5);
+}
+
+@media screen and (max-width: 375px) {
+    .informacoes-eu h1{
+        font-size: 14px;
+    }
+
+    .informacoes-eu h3{
+        font-size: 14px;
+    }
+    .informacoes-eu button{
+        width: 12px;
+        height: 17px;
+    }
+    .informacoes img{
+        max-width:150px; 
+        max-height:150px;
+    }
+
+    .cabecalho-menu a{
+        font-size: 8px;
+    }
+    .experiencias p{
+        font-size: 10px;
+    }
+    .experiencias h2{
+        font-size: 20px;
+    }
+    .minhaHistoria p{
+        font-size: 10px;
+    }
+
+    .minhaHistoria h2{
+        font-size: 20px;
+    }
+    #corpo h2{
+        font-size: 20px;
+    }
+    .botoes button{
+        width: 120px;
+        height: 17px;
+    }
+
+    .cabecalho-menu button{
+        width: 100px;
+        height: 17px;
+    }
+    .agradecimentos a{
+        font-size: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+       
+    }
+}
