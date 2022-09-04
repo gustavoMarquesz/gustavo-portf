@@ -367,6 +367,16 @@ button:hover {
     box-shadow: 0 0 100px 50px rgba(57, 42, 221, 0.5);
 }
 
+.old-version{
+    color: red;
+    font-family: 'Roboto Mono', monospace; 
+}
+
+.new-version{
+    color: chartreuse;
+    font-family: 'Roboto Mono', monospace; 
+}
+
 @media screen and (max-width: 375px) {
     .informacoes-eu h1{
         font-size: 14px;
